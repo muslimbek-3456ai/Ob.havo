@@ -1,0 +1,191 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0d1117;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.phone-container {
+    width: 100%;
+    max-width: 360px;
+    background: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border: 8px solid #222;
+}
+
+.app-screen {
+    /* Увеличили padding со всех сторон, чтобы элементы не прилипали к краям телефона */
+    padding: 35px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px; 
+}
+
+.app-screen h2 {
+    color: #1e293b;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.weather-card {
+    background: linear-gradient(135deg, #e0f2fe, #bae6fd);
+    border-radius: 24px;
+    /* Сделали отступы внутри карточки больше, чтобы текст не был прижат к краям */
+    padding: 35px 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Увеличили расстояние между иконкой, температурой и текстом */
+}
+
+.weather-icon {
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.temp {
+    font-size: 42px;
+    font-weight: bold;
+    color: #0369a1;
+}
+
+.city {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.desc {
+    font-size: 16px;
+    color: #64748b;
+    text-transform: capitalize;
+}
+
+.btn {
+    background-color: #0095ff;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 16px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0077cc;
+}* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0d1117;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.phone-container {
+    width: 100%;
+    max-width: 360px;
+    background: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border: 8px solid #222;
+}
+
+.app-screen {
+    /* Увеличили padding со всех сторон, чтобы элементы не прилипали к краям телефона */
+    padding: 35px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px; 
+}
+
+.app-screen h2 {
+    color: #1e293b;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.weather-card {
+    background: linear-gradient(135deg, #e0f2fe, #bae6fd);
+    border-radius: 24px;
+    /* Сделали отступы внутри карточки больше, чтобы текст не был прижат к краям */
+    padding: 35px 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Увеличили расстояние между иконкой, температурой и текстом */
+}
+
+.weather-icon {
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.temp {
+    font-size: 42px;
+    font-weight: bold;
+    color: #0369a1;
+}
+
+.city {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.desc {
+    font-size: 16px;
+    color: #64748b;
+    text-transform: capitalize;
+}
+
+.btn {
+    background-color: #0095ff;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 16px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0077cc;
+} */
